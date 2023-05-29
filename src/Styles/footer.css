@@ -1,0 +1,97 @@
+/* Estilos CSS para el footer */
+
+/* Estilos generales del footer */
+.footer {
+  background-color: #33405e;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #f8f9fa;
+}
+
+.footer-bottom {
+  background-color: #23282c;
+  height: 42px;
+}
+
+.text-center {
+  margin-top: 16px;
+}
+
+/* Definición de las variables */
+:root {
+  --circle-top-right-out: inset(0 0 0 0);
+  --circle-bottom-right-in: inset(100% 100% 0 0);
+}
+
+/* Estilos específicos para pantallas pequeñas (menos de 576px) */
+@media (max-width: 575.98px) {
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}
+
+/* Estilos específicos para pantallas medianas (entre 576px y 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}
+
+/* Estilos específicos para pantallas grandes (más de 768px) */
+@media (min-width: 768px) {
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,37 @@
+.navbar-brand {
+  color: rgb(30, 97, 219);
+}
+.navbar-brand:hover {
+  color: rgb(0, 92, 167);
+}
+
+.nav-link {
+  color: rgb(30, 97, 219);
+}
+.nav-link:hover {
+  color: rgb(0, 92, 167);
+}
+
+.container-title {
+  margin-top: 20px;
+}
+.navbar {
+  position: fixed; /* Establece la barra de navegación como de posición fija */
+  top: 0; /* Ancla la barra de navegación en la parte superior */
+  left: 0; /* Ancla la barra de navegación en la parte izquierda */
+  right: 0; /* Ancla la barra de navegación en la parte derecha */
+  background-color: black !important;
+  opacity: 0.4;
+  padding: 24px; /* Agrega espaciado interno a la barra de navegación */
+  margin-top: 72px;
+  box-shadow: rgba(58, 196, 255, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.navbar > .container {
+  text-align: center;
+}
+.container-title h1 {
+  font-family: "Georgia, serif";
+  font-weight: bold;
+}

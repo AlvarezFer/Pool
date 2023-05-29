@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+.container-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0; /* Elimina completamente el espacio entre las columnas */
+  /* Agrega otros estilos personalizados según tu diseño */
+  margin-top: 100px;
+}
+
+.container-row {
+  display: flex;
+  justify-content: center;
+  gap: 0; /* Elimina completamente el espacio entre las columnas */
+  margin-bottom: 0; /* Elimina el margen inferior entre las filas */
+}
+
+.container-div {
+  flex: 1;
+  text-align: center; /* Centra horizontalmente el contenido dentro de cada contenedor */
+  overflow: hidden;
+}
+
+.container-div img {
+  width: 400px; /* Ajusta el ancho de las imágenes según tus necesidades */
+  height: 380px; /* Ajusta la altura de las imágenes según tus necesidades */
+  margin: 2px;
+  object-fit: cover;
+  /* Agrega otros estilos de imagen personalizados según tu diseño */
+  border-radius: 8px; /* Añade esquinas redondeadas a las imágenes */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  object-fit: cover;
+  transition: transform 0.5s, width 0.5s;
+}
+
+.container-div:hover img {
+  transform: scale(
+    1.2
+  ); /* Añade un efecto de escala al pasar el ratón por encima */
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave al efecto de escala */
+}
+.cont-title {
+  margin-top: 100px;
+  text-align: center;
+}
+.title {
+  color: rgb(100, 149, 237);
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}

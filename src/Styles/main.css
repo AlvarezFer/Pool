@@ -1,0 +1,61 @@
+/* Estilos para la sección "Sobre nosotros" */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.sobre-nosotros {
+  background-color: #fff;
+  padding: 5% 10%;
+
+  text-align: center;
+}
+
+.sobre-nosotros h2 {
+  font-size: 48px;
+  margin-bottom: 2%;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.sobre-nosotros p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 5%;
+  color: #555;
+  line-height: 2;
+  font-family: Arial, sans-serif;
+}
+
+.sobre-nosotros h3 {
+  font-size: 32px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.sobre-nosotros ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.sobre-nosotros li {
+  font-size: 24px;
+  line-height: 2;
+  margin: 0 2%;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.testimonios-container {
+  display: flex;
+}
+
+.testimonio {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.testimonio li {
+  font-family: "Lato", sans-serif;
+}
